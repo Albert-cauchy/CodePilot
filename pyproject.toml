@@ -1,0 +1,35 @@
+[project]
+name = "codepilot"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "langgraph>=1.0,<2",
+  "langchain-openai>=1.0,<2",
+  "docker>=7,<8",
+  "datasets>=3,<6",
+  "mfusepy>=3.1,<4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "mypy>=1.10", "ruff>=0.9"]
+evaluation = ["swebench>=4,<6"]
+
+[tool.setuptools.packages.find]
+include = ["codepilot*", "scripts*"]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "tests"]
+markers = ["docker: requires a local Docker daemon and a preinstalled test image"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+follow_imports = "silent"
+check_untyped_defs = true
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

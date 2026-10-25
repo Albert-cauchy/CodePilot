@@ -1,0 +1,109 @@
+{
+  "dataset": "SWE-bench/SWE-bench_Verified",
+  "split": "test",
+  "revision": "78f471bf655a3137b2e8a75af1501690ec009ec3",
+  "seed": 42,
+  "sample_size": 50,
+  "repository_counts": {
+    "astropy/astropy": {
+      "verified": 22,
+      "selected": 2
+    },
+    "django/django": {
+      "verified": 231,
+      "selected": 23
+    },
+    "matplotlib/matplotlib": {
+      "verified": 34,
+      "selected": 3
+    },
+    "mwaskom/seaborn": {
+      "verified": 2,
+      "selected": 1
+    },
+    "pallets/flask": {
+      "verified": 1,
+      "selected": 1
+    },
+    "psf/requests": {
+      "verified": 8,
+      "selected": 1
+    },
+    "pydata/xarray": {
+      "verified": 22,
+      "selected": 2
+    },
+    "pylint-dev/pylint": {
+      "verified": 10,
+      "selected": 1
+    },
+    "pytest-dev/pytest": {
+      "verified": 19,
+      "selected": 2
+    },
+    "scikit-learn/scikit-learn": {
+      "verified": 32,
+      "selected": 3
+    },
+    "sphinx-doc/sphinx": {
+      "verified": 44,
+      "selected": 4
+    },
+    "sympy/sympy": {
+      "verified": 75,
+      "selected": 7
+    }
+  },
+  "instance_ids": [
+    "astropy__astropy-13398",
+    "astropy__astropy-8707",
+    "django__django-11066",
+    "django__django-11087",
+    "django__django-11095",
+    "django__django-11292",
+    "django__django-11299",
+    "django__django-11433",
+    "django__django-11734",
+    "django__django-12273",
+    "django__django-12304",
+    "django__django-12325",
+    "django__django-12663",
+    "django__django-13012",
+    "django__django-13810",
+    "django__django-14351",
+    "django__django-14580",
+    "django__django-14725",
+    "django__django-14999",
+    "django__django-15098",
+    "django__django-15525",
+    "django__django-15930",
+    "django__django-15957",
+    "django__django-7530",
+    "django__django-9296",
+    "matplotlib__matplotlib-23412",
+    "matplotlib__matplotlib-24026",
+    "matplotlib__matplotlib-25479",
+    "mwaskom__seaborn-3187",
+    "pallets__flask-5014",
+    "psf__requests-1142",
+    "pydata__xarray-3993",
+    "pydata__xarray-6461",
+    "pylint-dev__pylint-6528",
+    "pytest-dev__pytest-5631",
+    "pytest-dev__pytest-6197",
+    "scikit-learn__scikit-learn-12682",
+    "scikit-learn__scikit-learn-13496",
+    "scikit-learn__scikit-learn-14894",
+    "sphinx-doc__sphinx-10673",
+    "sphinx-doc__sphinx-11445",
+    "sphinx-doc__sphinx-8459",
+    "sphinx-doc__sphinx-8548",
+    "sympy__sympy-13031",
+    "sympy__sympy-13877",
+    "sympy__sympy-16886",
+    "sympy__sympy-19346",
+    "sympy__sympy-19954",
+    "sympy__sympy-21847",
+    "sympy__sympy-23950"
+  ]
+}
